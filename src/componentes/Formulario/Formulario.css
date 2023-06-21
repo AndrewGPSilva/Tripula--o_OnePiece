@@ -6,26 +6,36 @@
 
 .formulario form {
     max-width: 80%;
-    background-color: rgba(0, 255, 115, 0.384);
+    background-color: rgba(0, 71, 32, 0.384);
     border-radius: 20px;
     padding: 36px 64px;
     box-shadow: 8px 8px 16px rgba(0,0,0, 0.08);
     border: 1px solid black;
 }
 
+.formulario h2 {
+    color: black;
+    font-size: 2em;
+}
+
 body {
     background-color: rgba(0, 255, 115, 0.692);
+}
+
+label {
+    font-weight: bold;
 }
 
 @media (max-width: 720px) {
     .formulario {
         display: flex;
         justify-content: center;
-        margin: 20px;
+        margin: 5px;
     }
 
     input {
         height: 40px;
+        border-radius: 10px;
     }
 
     select {
@@ -34,5 +44,14 @@ body {
 
     ::placeholder {
         font-size: 0.7em;
+    }
+
+    .formulario form {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .formulario h2 {
+        font-size: 1.4em;
     }
 }
