@@ -1,0 +1,19 @@
+footer {
+    text-align: center;
+    color: black;
+    background-color: black;
+    padding: 4px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 1em;
+    color: white;
+}
+
+@media (max-width: 720px) {
+    h2 {
+        font-size: 0.8em;
+        color: white;
+    }
+}
