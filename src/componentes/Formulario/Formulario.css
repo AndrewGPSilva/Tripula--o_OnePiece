@@ -38,10 +38,6 @@ label {
         border-radius: 10px;
     }
 
-    select {
-        height: 40px;
-    }
-
     ::placeholder {
         font-size: 0.7em;
     }
